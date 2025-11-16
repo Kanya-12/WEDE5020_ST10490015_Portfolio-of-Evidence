@@ -197,10 +197,12 @@ Mobile: 375×812 (iPhone X style) or 360×800 (Android)
 Use PNG for UI screenshots; use WebP for smaller size if supported in documentation hosting.
 
 11. References List (Harvard style)
-Pick n Pay. (2025) Pick n Pay | Welcome. Available at: https://www.pnp.co.za/ [Accessed on: 26 August 2025].
+
+Pick n Pay. (2025) Pick n Pay Welcome. Available at: https://www.pnp.co.za/ [Accessed on: 26 August 2025].
 
 Pick n Pay. (2024) Integrated Annual Report 2024. Available at: https://www.pnp.co.za/investor-relations/reports [Accessed on: 01 September 2025].
 
 Statista. (2023) E-commerce share of retail sales in South Africa 2017-2023. Available at: https://www.statista.com/ [Accessed on: 15 September 2025].
 
 NielsenIQ. (2022) Retail & Consumer Trends South Africa 2022. Available at: https://www.nielseniq.com/ [Accessed on: 12 September 2025].
+
