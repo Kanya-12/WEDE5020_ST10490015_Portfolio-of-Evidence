@@ -1,0 +1,122 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: #f9f9f9;
+    color: #333;
+}
+
+/* Header */
+header {
+    background: #fc1818; /* Red */
+    color: #fff;
+    padding: 1rem 2rem;
+}
+
+header h1 {
+    font-size: 1.8rem;
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 0.5rem;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+    color: #ffcc00; /* Yellow highlight */
+}
+
+/* Hero section */
+.hero {
+    text-align: center;
+    padding: 3rem 2rem;
+    background: linear-gradient(to right, #0066cc, #0099ff);
+    color: white;
+}
+
+.hero h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    margin-bottom: 1.5rem;
+    font-size: 1.1rem;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    padding: 0.8rem 1.6rem;
+    background: #ffcc00;        /* Yellow base */
+    color: #003366;             /* Dark blue text */
+    font-weight: bold;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #ff9900;        /* Orange on hover */
+    color: #fff;                /* White text */
+    transform: scale(1.05);     /* Slight zoom effect */
+}
+
+/* Highlights section */
+.highlights {
+    padding: 2rem;
+    background: #fff;
+    margin: 2rem auto;
+    max-width: 900px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.highlights h3, 
+.highlights h4, 
+.highlights h5 {
+    margin-bottom: 1rem;
+    color: #003366;
+}
+
+.highlights ul {
+    margin-bottom: 1.5rem;
+    padding-left: 1.5rem;
+}
+
+.highlights ul li {
+    margin-bottom: 0.5rem;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #003366;
+    color: #fff;
+    margin-top: 2rem;
+}

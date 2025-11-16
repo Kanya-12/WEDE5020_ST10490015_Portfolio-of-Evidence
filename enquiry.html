@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Enquiry - Pick n Pay Retail</title>
+    <link rel="stylesheet" href="css/style.css"/>
+    <meta name="description" content="Submit your enquiry or request a quote easily through our enquiry form.">
+</head>
+
+<body>
+
+<header>
+    <h1>Pick n Pay Retail</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a class="active" href="enquiry.html">Enquiry</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- Main -->
+<main>
+    <img src="Images/PicknPayLogo.svg" alt="Pick n Pay Logo" width="100"/>
+
+    <section class="hero">
+        <h2>Enquiry Form</h2>
+
+        <form id="enquiryForm" action="submit_enquiry.php" method="post">
+            <label for="name">Full Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email Address:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="message">Your Enquiry:</label><br>
+            <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+            <button type="submit">Submit Enquiry</button>
+        </form>
+
+        <div id="response" style="margin-top:20px; font-weight:bold;"></div>
+    </section>
+</main>
+
+<footer>
+    <p>© 2025 Pick n Pay Retail</p>
+</footer>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
